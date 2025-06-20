@@ -2,6 +2,7 @@
 /shelf/
 /workspace.xml
 /out*
+out/*
 /.idea/*
 .idea/*
 # Environment-dependent path to Maven home directory
