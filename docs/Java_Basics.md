@@ -47,4 +47,16 @@ After restarting the command prompt, verify that the environment variables are s
 *   **<span class="delve __shimmer__">Custom Installation Location</span>:** If you installed the JDK to a non-standard location (e.g., `C:\dev\jdk-21`), ensure that the `JAVA_HOME` and `Path` variables reflect this custom path.
 
 
+## Change the version of Java for IntelliJ Community Edition ##
+
+Here's how to change the Java version used by IntelliJ IDEA Community Edition:
+
+*   **Access Project Structure:** Navigate to `Ctrl + Shift + Alt + S` to open the Project Structure settings. This is the primary method for configuring Java versions within your IntelliJ projects.
+*   **Select or Add a JDK:** Within Project Structure, locate the section for configuring your JDK (Java Development Kit). You’ll have the option to either select a JDK that's already been added to IntelliJ, or to add a new one if the version you want to use isn’t currently listed.
+*   **Project SDK:** Once you've added or selected the desired JDK, ensure it's set as the "Project SDK" in the Project Structure settings. This tells IntelliJ which Java version to use for compiling and running your projects.
+*   **IDE Boot JDK:** It's important to note that changing the Project SDK only affects the Java version used *within* IntelliJ for your projects. It does *not* change the Java version that IntelliJ itself runs on. If you need to change the Java version IntelliJ uses to operate, you’ll need to adjust the IDE Boot JDK settings separately.
+*   **Platform Specifics:** The precise steps might vary slightly depending on your operating system (Windows, macOS, Linux), but the core process of using the Project Structure settings to select or add a JDK remains consistent.
+*   **Restart if Necessary:** In some cases, you may need to restart IntelliJ IDEA for the changes to take effect fully.
+*   **Verify the Change:** After making the changes, it's a good practice to verify that the correct Java version is being used by running a simple Java program or checking the project settings.
+
 
