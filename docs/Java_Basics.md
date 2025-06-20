@@ -98,8 +98,9 @@ public class JavaVersionCheck {
     java JavaVersionCheck
     ```
 
-The output will display the Java version, runtime version, home directory, and vendor currently being used.  This is a quick way to confirm that IntelliJ is indeed running your code with the expected Java version.
+The output will display the Java version, runtime version, home directory, and vendor currently being used.  
+This is a quick way to confirm that IntelliJ is indeed running your code with the expected Java version.
 
-
+Click the link to find the [Version Checker](https://jameshesketh.github.io/potential-rotary-phone/Java_Version_Checker) details.
 
 
