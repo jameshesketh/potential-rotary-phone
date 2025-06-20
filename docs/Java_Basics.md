@@ -59,4 +59,47 @@ Here's how to change the Java version used by IntelliJ IDEA Community Edition:
 *   **Restart if Necessary:** In some cases, you may need to restart IntelliJ IDEA for the changes to take effect fully.
 *   **Verify the Change:** After making the changes, it's a good practice to verify that the correct Java version is being used by running a simple Java program or checking the project settings.
 
+## Simple Java Class for displaying Important Java fields ##
+
+```java
+public class JavaVersionCheck {
+
+    public static void main(String[] args) {
+        System.out.println("Java Version: " + System.getProperty("java.version"));
+        System.out.println("Java Runtime Version: " + System.getProperty("java.runtime.version"));
+        System.out.println("Java Home: " + System.getProperty("java.home"));
+        System.out.println("Java Vendor: " + System.getProperty("java.vendor"));
+    }
+}
+```
+
+**Explanation:**
+
+*   **`public class JavaVersionCheck`**:  This declares a public class named `JavaVersionCheck`.
+*   **`public static void main(String[] args)`**: This is the main method, the entry point of the program.
+*   **`System.getProperty("java.version")`**:  This retrieves the Java version string (e.g., "17.0.2").  `System.getProperty()` is a standard Java method for getting system-level properties.
+*   **`System.getProperty("java.runtime.version")`**:  Gets the version of the Java runtime environment.
+*   **`System.getProperty("java.home")`**: Gets the directory where the Java runtime is installed. Useful for confirming the correct installation is being used.
+*   **`System.getProperty("java.vendor")`**: Gets the vendor of the Java runtime (e.g., "Oracle Corporation", "Adoptium").
+*   **`System.out.println(...)`**: Prints the retrieved version information to the console.
+
+**How to Run:**
+
+1.  **Save the Code:** Save the code as a file named `JavaVersionCheck.java`.
+2.  **Compile:** Open a terminal or command prompt, navigate to the directory where you saved the file, and compile the code using the Java compiler:
+
+    ```bash
+    javac JavaVersionCheck.java
+    ```
+
+3.  **Run:** Execute the compiled class file:
+
+    ```bash
+    java JavaVersionCheck
+    ```
+
+The output will display the Java version, runtime version, home directory, and vendor currently being used.  This is a quick way to confirm that IntelliJ is indeed running your code with the expected Java version.
+
+
+
 
