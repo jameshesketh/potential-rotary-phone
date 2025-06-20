@@ -89,7 +89,7 @@ public class JavaVersionCheck {
 2.  **Compile:** Open a terminal or command prompt, navigate to the directory where you saved the file, and compile the code using the Java compiler:
 
     ```bash
-    javac JavaVersionCheck.java
+    javac JavaVersionCheck.class
     ```
 
 3.  **Run:** Execute the compiled class file:
