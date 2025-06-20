@@ -103,4 +103,24 @@ This is a quick way to confirm that IntelliJ is indeed running your code with th
 
 Click the link to find the [Version Checker](https://jameshesketh.github.io/potential-rotary-phone/Java_Version_Checker) details.
 
+## GIT ##
 
+So this is not Java related and really the following file is for the IntelliJ installs, but the concept is the same. To stop code or files being pushed to a repository you don't want you need to modify the .gitignore file.
+
+This is the contents of my gitignore file.
+```
+# Default ignored files  
+.gitignore
+/shelf/
+/workspace.xml
+/out/*
+out/*
+/.idea/*
+.idea/*
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+```
+
+You need to put the .gitignore file in the root of your project like so:
+
+![gitignore](gitignore.png)
