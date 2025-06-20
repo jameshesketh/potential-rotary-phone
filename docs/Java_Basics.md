@@ -13,7 +13,7 @@ This guide details how to set up the Java Development Kit (JDK) on Windows, focu
 1.  **Access System Properties:** Search for "Environment Variables" in the Windows search bar and select "Edit the system environment variables."
 2.  **<span class="delve __shimmer__">User Variables</span> Section:** In the "System Properties" window, click the "Environment Variables..." button. Focus on the **"User variables for [Your Username]"** section (not "<span class="delve __shimmer__">System variables</span>").
 
-**3. Create/Edit <span class="delve __shimmer__">JAVA_HOME</span>`**
+**3. Create/Edit <span class="delve __shimmer__">JAVA_HOME</span>**
 
 *   **If `JAVA_HOME` exists:** Select it and click "Edit...".
 *   **If `JAVA_HOME` does not exist:** Click "New...".
