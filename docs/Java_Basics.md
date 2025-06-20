@@ -36,8 +36,8 @@ This guide details how to set up the Java Development Kit (JDK) on Windows, focu
 After restarting the command prompt, verify that the environment variables are set correctly by running the following commands:
 
 *   `echo %JAVA_HOME%` (should display the path you set)
-*   `<span class="delve __shimmer__">java -version</span>` (should display the version of the Java runtime you expect)
-*   `<span class="delve __shimmer__">javac -version</span>` (should display the version of the Java compiler you expect)
+*   <span class="delve __shimmer__">`java -version`</span> (should display the version of the Java runtime you expect)
+*   <span class="delve __shimmer__">`javac -version`</span> (should display the version of the Java compiler you expect)
 
 **Important Notes:**
 
